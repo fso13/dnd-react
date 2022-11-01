@@ -1,0 +1,8 @@
+{
+    "schedule": "daily",
+    "aggressiveCompression": "true", 
+    "compressWiki": "true",
+    "minKBReduced": 1,
+    "prTitle" : "Your own pr title",        
+    "prBody" : " Text before optimization ratio {optimization_ratio} Text after optimization ratio. Text before optimization details {optimization_details} Text after optimization details",
+}
