@@ -55,59 +55,58 @@ const Monster = () => {
                                     <CardSubtitle className="mt-3">{'\n'}</CardSubtitle>
                                     <CardSubtitle className="text-primary">
                                         <Row>
-                                            <Col className={'bg-dark text-white'} sm="4" lg="4" xl="4">Броня</Col>
-                                            <Col className={' bg-dark text-white text-center'} sm="4" lg="4"
+                                            <Col className={'bg-dark text-white'} xs="4"  sm="4" lg="4" xl="4">Броня</Col>
+                                            <Col className={' bg-dark text-white text-center'} xs="4"  sm="4" lg="4"
                                                  xl="4">HP</Col>
-                                            <Col className={'bg-dark text-white text-end'} sm="4" lg="4"
+                                            <Col className={'bg-dark text-white text-end'}  xs="4" sm="4" lg="4"
                                                  xl="4">Скорость</Col>
                                         </Row>
                                         <Row>
-                                            <Col className={'text-dark'} sm="4" lg="4" xl="4">{monsterJson.ac} </Col>
-                                            <Col className={'text-center text-dark'} sm="4" lg="4"
+                                            <Col className={'text-dark'}  xs="4" sm="4" lg="4" xl="4">{monsterJson.ac} </Col>
+                                            <Col className={'text-center text-dark'} xs="4"  sm="4" lg="4"
                                                  xl="4">{monsterJson.hp} </Col>
-                                            <Col className={'text-end text-dark'} sm="4" lg="4"
+                                            <Col className={'text-end text-dark'}  xs="4" sm="4" lg="4"
                                                  xl="4">{monsterJson.speed} </Col>
                                         </Row>
                                         <Row>
-                                            <Col className={'bg-dark text-white'} sm="2" lg="2" xl="2">СИЛ </Col>
-                                            <Col className={'bg-dark text-white'} sm="2" lg="2" xl="2">ЛОВ </Col>
-                                            <Col className={'bg-dark text-white'} sm="2" lg="2" xl="2">ХАР </Col>
-                                            <Col className={'bg-dark text-white'} sm="2" lg="2" xl="2">ИНТ </Col>
-                                            <Col className={'bg-dark text-white'} sm="2" lg="2" xl="2">МУД </Col>
-                                            <Col className={'bg-dark text-white'} sm="2" lg="2" xl="2">ТЕЛ </Col>
+                                            <Col className={'bg-dark text-white'} xs="2" sm="2" lg="2" xl="2">СИЛ </Col>
+                                            <Col className={'bg-dark text-white'} xs="2" sm="2" lg="2" xl="2">ЛОВ </Col>
+                                            <Col className={'bg-dark text-white'} xs="2" sm="2" lg="2" xl="2">ХАР </Col>
+                                            <Col className={'bg-dark text-white'} xs="2" sm="2" lg="2" xl="2">ИНТ </Col>
+                                            <Col className={'bg-dark text-white'} xs="2" sm="2" lg="2" xl="2">МУД </Col>
+                                            <Col className={'bg-dark text-white'} xs="2" sm="2" lg="2" xl="2">ТЕЛ </Col>
                                         </Row>
                                         <Row>
-                                            <Col className={'text-dark'} sm="2" lg="2" xl="2">{monsterJson.str} </Col>
-                                            <Col className={'text-dark'} sm="2" lg="2" xl="2">{monsterJson.dex} </Col>
-                                            <Col className={'text-dark'} sm="2" lg="2" xl="2">{monsterJson.cha} </Col>
-                                            <Col className={'text-dark'} sm="2" lg="2"
-                                                 xl="2">{monsterJson.intilect} </Col>
-                                            <Col className={'text-dark'} sm="2" lg="2" xl="2">{monsterJson.wis} </Col>
-                                            <Col className={'text-dark'} sm="2" lg="2" xl="2">{monsterJson.con} </Col>
+                                            <Col className={'text-dark'} xs="2" sm="2" lg="2" xl="2">{monsterJson.str} </Col>
+                                            <Col className={'text-dark'} xs="2" sm="2" lg="2" xl="2">{monsterJson.dex} </Col>
+                                            <Col className={'text-dark'} xs="2" sm="2" lg="2" xl="2">{monsterJson.cha} </Col>
+                                            <Col className={'text-dark'} xs="2" sm="2" lg="2" xl="2">{monsterJson.intilect} </Col>
+                                            <Col className={'text-dark'} xs="2" sm="2" lg="2" xl="2">{monsterJson.wis} </Col>
+                                            <Col className={'text-dark'} xs="2" sm="2" lg="2" xl="2">{monsterJson.con} </Col>
                                         </Row>
                                         <Row>
-                                            <Col className={'bg-dark text-white'} sm="4" lg="4" xl="4">Навыки </Col>
-                                            <Col className={'bg-dark text-white text-center'} sm="4" lg="4"
+                                            <Col className={'bg-dark text-white'}  xs="4" sm="4" lg="4" xl="4">Навыки </Col>
+                                            <Col className={'bg-dark text-white text-center'}  xs="4" sm="4" lg="4"
                                                  xl="4">Чувства </Col>
-                                            <Col className={'bg-dark text-white text-end'} sm="4" lg="4"
+                                            <Col className={'bg-dark text-white text-end'}  xs="4" sm="4" lg="4"
                                                  xl="4">Языки</Col>
                                         </Row>
                                         <Row>
-                                            <Col className={'text-dark'} sm="4" lg="4"
+                                            <Col className={'text-dark'}  xs="4" sm="4" lg="4"
                                                  xl="4">{monsterJson.skill.join(', ')} </Col>
-                                            <Col className={'text-center text-dark'} sm="4" lg="4"
+                                            <Col className={'text-center text-dark'}  xs="4" sm="4" lg="4"
                                                  xl="4">{monsterJson.senses} </Col>
-                                            <Col className={'text-end text-dark'} sm="4" lg="4"
+                                            <Col className={'text-end text-dark'} xs="4"  sm="4" lg="4"
                                                  xl="4">{monsterJson.languages} </Col>
                                         </Row>
                                         <Row>
-                                            <Col className={'bg-dark text-white'} sm="6" lg="6" xl="6">Размер</Col>
-                                            <Col className={'bg-dark text-white text-end'} sm="6" lg="6"
+                                            <Col className={'bg-dark text-white'}  xs="6" sm="6" lg="6" xl="6">Размер</Col>
+                                            <Col className={'bg-dark text-white text-end'} xs="6"  sm="6" lg="6"
                                                  xl="6">Окружение</Col>
                                         </Row>
                                         <Row>
-                                            <Col className={'text-dark'} sm="6" lg="6" xl="6">{monsterJson.size} </Col>
-                                            <Col className={'text-end text-dark'} sm="6" lg="6"
+                                            <Col className={'text-dark'} xs="6"  sm="6" lg="6" xl="6">{monsterJson.size} </Col>
+                                            <Col className={'text-end text-dark'}  xs="6" sm="6" lg="6"
                                                  xl="6"> {monsterJson.bioms.join(', ')} </Col>
                                         </Row>
                                     </CardSubtitle>
@@ -118,10 +117,10 @@ const Monster = () => {
                                             return (
                                                 <div>
                                                     <Row>
-                                                        <Col className={'bg-dark text-white'} sm="6" lg="6"
+                                                        <Col className={'bg-dark text-white'}  xs="6" sm="6" lg="6"
                                                              xl="6"
                                                              dangerouslySetInnerHTML={{__html: monsterTrait.name}}/>
-                                                        <Col className={'bg-dark text-white text-end'} sm="6" lg="6"
+                                                        <Col className={'bg-dark text-white text-end'}  xs="6" sm="6" lg="6"
                                                              xl="6"
                                                              dangerouslySetInnerHTML={{__html: monsterTrait.attack}}/>
                                                     </Row>
@@ -141,10 +140,10 @@ const Monster = () => {
                                             return (
                                                 <div>
                                                     <Row>
-                                                        <Col className={'bg-dark text-white'} sm="6" lg="6"
+                                                        <Col className={'bg-dark text-white'}  xs="6" sm="6" lg="6"
                                                              xl="6" className={'text-dark'}
                                                              dangerouslySetInnerHTML={{__html: monsterAction.name}}/>
-                                                        <Col className={'bg-dark text-white text-end'} sm="6" lg="6"
+                                                        <Col className={'bg-dark text-white text-end'}  xs="6" sm="6" lg="6"
                                                              xl="6" className={'text-dark'}
                                                              dangerouslySetInnerHTML={{__html: monsterAction.attack}}/>
                                                     </Row>

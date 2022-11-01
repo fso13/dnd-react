@@ -59,21 +59,39 @@ const Spell = () => {
                                                 <CardSubtitle className="mt-3">{'\n'}</CardSubtitle>
                                                 <CardSubtitle className="text-primary">
                                                     <Row>
-                                                        <Col sm="6" lg="6" xl="6">Время
-                                                            накладывания: {spellJson.castingTime} </Col>
-                                                        <Col className={'text-end'} sm="6" lg="6"
-                                                             xl="6">Дистанция: {spellJson.range} </Col>
+                                                        <Col className={'bg-dark text-white'} xs="6" sm="6" lg="6" xl="6">Время
+                                                            накладывания</Col>
+                                                        <Col className={'text-end bg-dark text-white'} xs="6" sm="6" lg="6"
+                                                             xl="6">Дистанция</Col>
                                                     </Row>
                                                     <Row>
-                                                        <Col sm="6" lg="6"
-                                                             xl="6">Компоненты: {spellJson.components} </Col>
-                                                        <Col className={'text-end'} sm="6" lg="6"
-                                                             xl="6">Длительность: {spellJson.duration} </Col>
+                                                        <Col  xs="6" sm="6" lg="6"
+                                                             xl="6">{spellJson.castingTime} </Col>
+                                                        <Col className={'text-end'} xs="6" sm="6"
+                                                             lg="6"
+                                                             xl="6">{spellJson.range} </Col>
                                                     </Row>
                                                     <Row>
-                                                        <Col sm="6" lg="6" xl="6">Доступные классы: {cl} </Col>
-                                                        <Col className={'text-end'} sm="6" lg="6"
-                                                             xl="6">Школа: {spellJson.school} </Col>
+                                                        <Col className={'bg-dark text-white'} xs="6"  sm="6" lg="6"
+                                                             xl="6">Компоненты</Col>
+                                                        <Col className={'text-end bg-dark text-white'} xs="6"  sm="6" lg="6"
+                                                             xl="6">Длительность</Col>
+                                                    </Row>
+                                                    <Row>
+                                                        <Col xs="6" sm="6" lg="6"
+                                                             xl="6">{spellJson.components} </Col>
+                                                        <Col className={'text-end'} xs="6" sm="6" lg="6"
+                                                             xl="6">{spellJson.duration} </Col>
+                                                    </Row>
+                                                    <Row>
+                                                        <Col className={'bg-dark text-white'} xs="6" sm="6" lg="6" xl="6">Доступные классы</Col>
+                                                        <Col className={'text-end bg-dark text-white'} xs="6"  sm="6" lg="6"
+                                                             xl="6">Школа</Col>
+                                                    </Row>
+                                                    <Row>
+                                                        <Col xs="6" sm="6" lg="6" xl="6">{cl} </Col>
+                                                        <Col className={'text-end'} xs="6"  sm="6" lg="6"
+                                                            xl="6">{spellJson.school} </Col>
                                                     </Row>
                                                 </CardSubtitle>
                                                 <CardText className="mt-3">
