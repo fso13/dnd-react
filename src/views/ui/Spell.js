@@ -59,6 +59,12 @@ const Spell = () => {
                                                 <CardSubtitle className="mt-3">{'\n'}</CardSubtitle>
                                                 <CardSubtitle className="text-primary">
                                                     <Row>
+                                                        <Col className={'bg-dark text-white'} xs="12" sm="12" lg="12" xl="12">Уровень</Col>
+                                                    </Row>
+                                                    <Row>
+                                                        <Col  xs="12" sm="12" lg="12" xl="12">{spellJson.level} </Col>
+                                                    </Row>
+                                                    <Row>
                                                         <Col className={'bg-dark text-white'} xs="6" sm="6" lg="6" xl="6">Время
                                                             накладывания</Col>
                                                         <Col className={'text-end bg-dark text-white'} xs="6" sm="6" lg="6"
